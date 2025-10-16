@@ -11,7 +11,7 @@ echo  CC\        MM  \/  MM  DD     DD         MM  \/  MM  EE        NN  NN  NN 
 echo  CCCCCCCCC  MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN   NN NN  UUUUUUUUUU     \VV VV/    22222222
 echo  \CCCCCC/   MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN    NNNN  \UUUUUUUU/      \VVV/     22222222
 echo  *                                                            
-echo  *  Version 2.1.4.55.10.10.2025  /!\not public version/!\
+echo  *  Version 2.1.5 du 16.10.2025 
 echo  *
 
 echo BONJOUR TU VAS ETRE PIRATER DANS CE FICHIER (mdr c faux ... ou pas)
@@ -749,7 +749,7 @@ color F
 echo *******************************************
 echo *
 echo *  Credits de CMD-MENUv2
-echo Version 2.1.4.5 du 07.10.2025
+echo Version 2.1.5 du 16.10.2025
 echo *
 echo pour faire la MaJ vas sur https://drive.google.com/drive/folders/1uzpNLSENk2OM9lzkghzlBlScXyPYmp-S?usp=sharing
 echo pour les pre maj https://drive.google.com/drive/folders/1XB6L_QU2ML9zCOSDeLHuyaWTDHljgGB4?usp=sharing
@@ -793,7 +793,7 @@ echo qui n'as rien fait
 echo *
 echo DeCorp X Ethanol V1.0 (depuis 2025/10)
 echo *
-echo --------------CREDITS--------------v1.1.42
+echo --------------CREDITS--------------v1.1.43
 echo *
 echo buymeacoffee.com/DARIUSISTOC1
 echo *
