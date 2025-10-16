@@ -114,11 +114,23 @@ if "%choix%"=="3" goto CDN
 if "%choix%"=="4" goto genmdp
 if "%choix%"=="5" goto calc
 if "%choix%"=="6" goto minijeux
-if "%choix%"=="7" goto godmode_menu
+if "%choix%"=="7" goto godmode_warning
 if "%choix%"=="8" goto ...
 if "%choix%"=="9" goto Debut
 echo %choix% n'est pas bon !
 goto other
+:godmode_warning
+echo est tu sur de rentrer dans la categorie des god mode, cela paut casser votre machine si vous l'utilisez mail.
+echo voulez vous vraiment continuer
+echo WARNING /!\ ATTENTION ce truc est tres difficile a comprendre et est coneillé seulement aux developpeurs
+echo ecrire o pour continuer et n pour quiter, si aucune touche seras appuié avant de faire enter cela conteras comme non
+set /p choix=Veut tu vraiment continuer ? :
+if "%choix%"=="" goto other
+set choix=%choix:~0,1%
+if "%choix%"=="o" goto godmode_menu
+if "%choix%"=="n" goto other
+goto other
+
 :godmode_menu
 echo --- GODMODE! ---
 echo 1 : Créer GodMode
@@ -294,14 +306,6 @@ if %guess%==%secret% (
 )
 :CDN
 echo vous voulez calculez une note.
-
-
-
-╔═══════════╦═══════════╗
-║  Section  ║  Valeur   ║
-╠═══════════╬═══════════╣
-║  Exemple  ║   1234    ║
-╚═══════════╩═══════════╝
 
 echo ╔══════════════════════════════════════════════════════════════╗
 echo ║  __\     /!\ automatiquement mis sur 200 au lieu de 20 car   ║
@@ -822,9 +826,6 @@ echo -Plus de mini-jeux
 echo -Plus d'options
 echo *
 echo merci de partager ce programme ce serais tres gentil
-echo *
-echo une petite donnation ne feras pas de mal au createur:
-echo buymeacoffee.com/DARIUSISTOC1
 echo *
 echo retour au menu
 pause
