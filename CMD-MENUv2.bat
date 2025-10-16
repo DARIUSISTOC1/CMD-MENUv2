@@ -11,7 +11,7 @@ echo  CC\        MM  \/  MM  DD     DD         MM  \/  MM  EE        NN  NN  NN 
 echo  CCCCCCCCC  MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN   NN NN  UUUUUUUUUU     \VV VV/    22222222
 echo  \CCCCCC/   MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN    NNNN  \UUUUUUUU/      \VVV/     22222222
 echo  *                                                            
-echo  *  Version 2.1.4.5.07.10.2025  /!\not public version/!\
+echo  *  Version 2.1.4.55.10.10.2025  /!\not public version/!\
 echo  *
 
 echo BONJOUR TU VAS ETRE PIRATER DANS CE FICHIER (mdr c faux ... ou pas)
@@ -21,16 +21,13 @@ color 2
 set /P Nom="Comment t'appelles-tu ? "
 echo Bonjour %Nom%
 if "%Nom%"=="" set Nom=inconnu
-if "%Nom%"=="Darius" echo Salut le createur de ce programme
-if "%Nom%"=="Ethan" echo Salut le beta-testeur de ce programme
-if "%Nom%"=="Robin" echo Salut le beta-testeur de ce programme
-if "%Nom%"=="Hitler" echo 卍 GUTTEN TAG MEIN FHURRER 卍  gg t'as eut le succes n°1 sur 6
+if "%Nom%"=="Darius" echo First easter-egg finded
 set /p Age="Quel age as-tu ? "
 set /a reste=65-Age
 echo Encore %reste% ans de fuking travail avant la retraite!
 pause
 echo          Nous sommes le %date%, il est %time%
-echo une nouvelle MaJ sera dispo a partir du 06/10/2025
+echo une nouvelle MaJ sera dispo a partir du 15/10/2025
 
 pause
 
@@ -74,7 +71,7 @@ echo  CC\        MM  \/  MM  DD     DD         MM  \/  MM  EE        NN  NN  NN 
 echo  CCCCCCCCC  MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN   NN NN  UUUUUUUUUU      VV VV     22222222
 echo  \CCCCCC/   MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN    NNNN  \UUUUUUUU/       VVV      22222222
 echo  *                                                            
-echo  * Version 2.1.4.03.10.2025
+echo  * Version 2.1.4.5.08.10.2025
 echo  *
 echo  ***********************************************************
 echo  *
@@ -106,7 +103,8 @@ echo 4 : Générateur de mot de passe
 echo 5 : Calculatrice
 echo 6 : Mini-jeux
 echo 7 : GODMODE!
-echo 8 : precedent
+echo 8 : ...
+echo 9 : precedent
 set /p choix=Dans quelle categorie veut tu aller ? :
 if "%choix%"=="" goto other
 set choix=%choix:~0,1%
@@ -117,7 +115,8 @@ if "%choix%"=="4" goto genmdp
 if "%choix%"=="5" goto calc
 if "%choix%"=="6" goto minijeux
 if "%choix%"=="7" goto godmode_menu
-if "%choix%"=="8" goto Debut
+if "%choix%"=="8" goto ...
+if "%choix%"=="9" goto Debut
 echo %choix% n'est pas bon !
 goto other
 :godmode_menu
@@ -187,6 +186,7 @@ md "%desktop%\Update.{36eef7fc-4183-42ea-8369-7c838e3fb9fa}"
 echo Dossier Update créé sur le bureau !
 pause
 goto godmode_menu
+:godmode
 set "desktop=%USERPROFILE%\Desktop"
 md "%desktop%\GODMODE.{ED7BA470-8E54-465E-825C-99712043E01C}"
 echo Dossier GodMode créé sur le bureau !
@@ -253,7 +253,7 @@ goto minijeux
 setlocal enabledelayedexpansion
 set /p len=Longueur du mot de passe (entre 4 et 20): 
 if "%len%"=="" set len=8
-set chars=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*
+set chars=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*0123456789#@&*_+-=$
 set "mdp="
 for /l %%i in (1,1,%len%) do (
 	set /a idx=!random! %% 70
@@ -294,8 +294,19 @@ if %guess%==%secret% (
 )
 :CDN
 echo vous voulez calculez une note.
-echo   __\     /!\ automatiquement mis sur 200 au lieu de 20 car
-echo     /     le CMD ne peut pas calculer les nombres decimaux
+
+
+
+╔═══════════╦═══════════╗
+║  Section  ║  Valeur   ║
+╠═══════════╬═══════════╣
+║  Exemple  ║   1234    ║
+╚═══════════╩═══════════╝
+
+echo ╔══════════════════════════════════════════════════════════════╗
+echo ║  __\     /!\ automatiquement mis sur 200 au lieu de 20 car   ║
+echo ║    /     le CMD ne peut pas calculer les nombres decimaux    ║
+echo ╚══════════════════════════════════════════════════════════════╝
 echo 1 : /3
 echo 2 : /4
 echo 3 : /5
@@ -346,7 +357,7 @@ if %choix%==J goto NS50
 if %choix%==K goto NS70
 if %choix%==L goto NS75
 if %choix%==M goto NS90
-if %choix%==N goto NS90
+if %choix%==N goto NS90d
 if %choix%==O goto NS90
 if %choix%==P goto debut
 )
@@ -661,7 +672,7 @@ if %choix%==3 start https://discord.gg/ywfyYcXPgS
 if %choix%==4 start https://osu.ppy.sh/
 if %choix%==5 start https://www.instagram.com/pierrebourdieu_2k26/
 if %choix%==6 start https://youcare.world/?l=fr
-if %choix%==7 start https://drive.google.com/drive/folders/1XB6L_QU2ML9zCOSDeLHuyaWTDHljgGB4?usp=sharing
+if %choix%==7 start https://drive.google.com/drive/folders/1uzpNLSENk2OM9lzkghzlBlScXyPYmp-S?usp=sharing
 if %choix%==8 goto debut
 )
 echo %choix% n'est pas bon !
@@ -736,7 +747,8 @@ echo *
 echo *  Credits de CMD-MENUv2
 echo Version 2.1.4.5 du 07.10.2025
 echo *
-echo pour faire la MaJ vas sur https://drive.google.com/drive/folders/1XB6L_QU2ML9zCOSDeLHuyaWTDHljgGB4?usp=sharing
+echo pour faire la MaJ vas sur https://drive.google.com/drive/folders/1uzpNLSENk2OM9lzkghzlBlScXyPYmp-S?usp=sharing
+echo pour les pre maj https://drive.google.com/drive/folders/1XB6L_QU2ML9zCOSDeLHuyaWTDHljgGB4?usp=sharing
 echo *
 echo *
 echo ------un grand merci a toi d'etre alle sur cette page------
@@ -801,6 +813,14 @@ echo -GODMODE! (Creer des dossiers spéciaux sur le bureau) /!\ windows 10 et 11
 echo /!\ attention /!\ le godmode est tres difficile a comprendre
 echo le godmode est pour les utilisateurs avancés / developpeurs
 echo *
+echo --- DERNIERE MAJ MINEUR ---
+echo -Correction de bug dans le telechargement du godmode
+echo *
+echo --- PROCHAINES MAJ ---
+echo -Interface graphique
+echo -Plus de mini-jeux
+echo -Plus d'options
+echo *
 echo merci de partager ce programme ce serais tres gentil
 echo *
 echo retour au menu
@@ -817,7 +837,7 @@ echo *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 echo *@ nous ne pouvons pas faire de sauvegarde les easter egg                             @
 echo *@ mis il y a le nom des easter-eggs quand tu les trouve                              @
 echo *@                                                                                    @
-echo *@             Easter-Egg  /6                                                         @
+echo *@             Easter-Egg  /2                                                         @
 echo *@                                                                                    @
 echo *@     @@@@@@    @@@@@@    @@@@@@     @@@@@@    @@@@@@    @@@@@@                      @  
 echo *@    @  O / @  @  o o @  @      @   @      @  @      @  @      @                     @
@@ -825,7 +845,7 @@ echo *@    @ /|   @  @   .  @  @      @   @      @  @      @  @      @          
 echo *@    @ / \  @  @ \__/ @  @      @   @      @  @      @  @      @                     @
 echo *@     @@@@@@    @@@@@@    @@@@@@     @@@@@@    @@@@@@    @@@@@@                      @
 echo *@                                                                                    @
-echo *@       nein      BJR                                                                @
+echo *@    creation      BJR                                                               @
 echo *@                                                                                    @
 echo *@                                                                                    @ 
 echo *@                                                                                    @
