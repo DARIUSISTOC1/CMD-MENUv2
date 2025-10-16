@@ -795,6 +795,8 @@ echo DeCorp X Ethanol V1.0 (depuis 2025/10)
 echo *
 echo --------------CREDITS--------------v1.1.42
 echo *
+echo buymeacoffee.com/DARIUSISTOC1
+echo *
 echo un grand merci a toi d'avoir telecharge ce logiciel
 echo *
 echo -----DEV-----
@@ -819,6 +821,7 @@ echo le godmode est pour les utilisateurs avancés / developpeurs
 echo *
 echo --- DERNIERE MAJ MINEUR ---
 echo -Correction de bug dans le telechargement du godmode
+echo -ajout de warnings au godmode
 echo *
 echo --- PROCHAINES MAJ ---
 echo -Interface graphique
@@ -826,6 +829,9 @@ echo -Plus de mini-jeux
 echo -Plus d'options
 echo *
 echo merci de partager ce programme ce serais tres gentil
+echo *
+echo une petite donnation ne feras pas de mail
+echo buymeacoffee.com/DARIUSISTOC1
 echo *
 echo retour au menu
 pause
