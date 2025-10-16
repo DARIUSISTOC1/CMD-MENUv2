@@ -823,6 +823,9 @@ echo -Plus d'options
 echo *
 echo merci de partager ce programme ce serais tres gentil
 echo *
+echo une petite donnation ne feras pas de mal au createur:
+echo buymeacoffee.com/DARIUSISTOC1
+echo *
 echo retour au menu
 pause
 goto debut
