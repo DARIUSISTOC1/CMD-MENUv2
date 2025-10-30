@@ -63,13 +63,13 @@ echo  Ce programe vous est proposé et crée par la DeCorp
 echo  *
 echo  *  BIENVENU SUR CMD-MENUv2 !                                             
 echo  *
-echo  /CCCCCC\   MMM\  /MMM  DDDDDDD\          MMM\  /MMM  EEEEEEEE  NN      NN  UU      UU                /222222\
-echo  CCCCCCCCC  MMMM\/MMMM  DDDDDDDD\         MMMM\/MMMM  EEEEEEEE  NNN     NN  UU      UU                22222222
-echo  CC/        MM\MMMM/MM  DD   \DDD         MM\MMMM/MM  EE        NNNN    NN  UU      UU    VV     VV   2/   /22
-echo  CC         MM \MM/ MM  DD    \DD   ---   MM \MM/ MM  EEEEEEEE  NN NN   NN  UU      UU     VV   VV       /22/
-echo  CC\        MM  \/  MM  DD     DD         MM  \/  MM  EE        NN  NN  NN  UU\    /UU     VV   VV     /22/
-echo  CCCCCCCCC  MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN   NN NN  UUUUUUUUUU      VV VV     22222222
-echo  \CCCCCC/   MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN    NNNN  \UUUUUUUU/       VVV      22222222
+echo  /CCCCCC\   MMM\  /MMM  DDDDDDD\          MMM\  /MMM  EEEEEEEE  NN\     NN  UU      UU                /222222\
+echo  CCCCCCCCC  MMMM\/MMMM  DDDDDDDD\         MMMM\/MMMM  EEEEEEEE  NNN\    NN  UU      UU                22222222
+echo  CC/        MM\MMMM/MM  DD   \DDD         MM\MMMM/MM  EE        NNNN\   NN  UU      UU    VV     VV   2/   /22
+echo  CC         MM \MM/ MM  DD    \DD   ---   MM \MM/ MM  EEEEEEEE  NN NN\  NN  UU      UU     VV   VV       /22/
+echo  CC\        MM  \/  MM  DD     DD         MM  \/  MM  EE        NN \NN\ NN  UU\    /UU     VV   VV     /22/
+echo  CCCCCCCCC  MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN  \NN\NN  UUUUUUUUUU      VV VV     22222222
+echo  \CCCCCC/   MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN   \NNNN  \UUUUUUUU/       VVV      22222222
 echo  *                                                            
 echo  * Version 2.1.4.5.08.10.2025
 echo  *
