@@ -27,7 +27,7 @@ set /a reste=65-Age
 echo Encore %reste% ans de fuking travail avant la retraite!
 pause
 echo          Nous sommes le %date%, il est %time%
-echo une nouvelle MaJ sera dispo a partir du 00/03/2026
+echo une nouvelle MaJ sera dispo a partir du 10/03/2026
 
 pause
 
