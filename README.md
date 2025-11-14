@@ -7,7 +7,7 @@
 </p>
 
 <br>
-<h2 align="center">INSTALATION DON'T WORK</h2>
+<h2 align="center">INSTALATION MOMENTLY DON'T WORK</h2>
 <br>
 <h2 align="center">How To Create</h2>
 
