@@ -3,15 +3,15 @@ chcp 65001
 echo  Ce programe vous est proposé et crée par la DeCorp en colaboration avec plusieurs tiers
 echo  *                                                         
 echo  *
-echo  /CCCCCC\   MMM\  /MMM  DDDDDDD\          MMM\  /MMM  EEEEEEEE  NN\     NN  UU      UU                /222222\
-echo  CCCCCCCCC  MMMM\/MMMM  DDDDDDDD\         MMMM\/MMMM  EEEEEEEE  NNN\    NN  UU      UU                22222222
-echo  CC/        MM\MMMM/MM  DD   \DDD         MM\MMMM/MM  EE        NNNN\   NN  UU      UU    VV\   /VV   2/   /22
-echo  CC         MM \MM/ MM  DD    \DD   ---   MM \MM/ MM  EEEEEEEE  NN\NN\  NN  UU      UU    \VV   VV/      /22/
-echo  CC\        MM  \/  MM  DD     DD         MM  \/  MM  EE        NN \NN\ NN  UU\    /UU     VV\ /VV     /22/
-echo  CCCCCCCCC  MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN  \NN\NN  UUUUUUUUUU     \VV VV/    22222222
-echo  \CCCCCC/   MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN   \NNNN  \UUUUUUUU/      \VVV/     22222222
+echo  /CCCCCC\   MMM\  /MMM  DDDDDDD\          MMM\  /MMM  EEEEEEEE  NN      NN  UU      UU                /222222\
+echo  CCCCCCCCC  MMMM\/MMMM  DDDDDDDD\         MMMM\/MMMM  EEEEEEEE  NNN     NN  UU      UU                22222222
+echo  CC/        MM\MMMM/MM  DD   \DDD         MM\MMMM/MM  EE        NNNN    NN  UU      UU    VV\   /VV   2/   /22
+echo  CC         MM \MM/ MM  DD    \DD   ---   MM \MM/ MM  EEEEEEEE  NN NN   NN  UU      UU    \VV   VV/      /22/
+echo  CC\        MM  \/  MM  DD     DD         MM  \/  MM  EE        NN  NN  NN  UU\    /UU     VV\ /VV     /22/
+echo  CCCCCCCCC  MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN   NN NN  UUUUUUUUUU     \VV VV/    22222222
+echo  \CCCCCC/   MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN    NNNN  \UUUUUUUU/      \VVV/     22222222
 echo  *                                                            
-echo  *  Version 2.1.6 du 14.11.2025 
+echo  *  Version 2.1.6 du 16.10.2025 
 echo  *
 
 echo BONJOUR TU VAS ETRE PIRATER DANS CE FICHIER (mdr c faux ... ou pas)
@@ -21,13 +21,12 @@ color 2
 set /P Nom="Comment t'appelles-tu ? "
 echo Bonjour %Nom%
 if "%Nom%"=="" set Nom=inconnu
-if "%Nom%"=="Darius" echo First easter-egg finded
 set /p Age="Quel age as-tu ? "
 set /a reste=65-Age
 echo Encore %reste% ans de fuking travail avant la retraite!
 pause
 echo          Nous sommes le %date%, il est %time%
-echo une nouvelle MaJ sera dispo a partir du 10/03/2026
+echo une nouvelle MaJ sera dispo a partir du 01/06/2026
 
 pause
 
@@ -63,15 +62,15 @@ echo  Ce programe vous est proposé et crée par la DeCorp
 echo  *
 echo  *  BIENVENU SUR CMD-MENUv2 !                                             
 echo  *
-echo  /CCCCCC\   MMM\  /MMM  DDDDDDD\          MMM\  /MMM  EEEEEEEE  NN\     NN  UU      UU                /222222\
-echo  CCCCCCCCC  MMMM\/MMMM  DDDDDDDD\         MMMM\/MMMM  EEEEEEEE  NNN\    NN  UU      UU                22222222
-echo  CC/        MM\MMMM/MM  DD   \DDD         MM\MMMM/MM  EE        NNNN\   NN  UU      UU    VV     VV   2/   /22
-echo  CC         MM \MM/ MM  DD    \DD   ---   MM \MM/ MM  EEEEEEEE  NN NN\  NN  UU      UU     VV   VV       /22/
-echo  CC\        MM  \/  MM  DD     DD         MM  \/  MM  EE        NN \NN\ NN  UU\    /UU     VV   VV     /22/
-echo  CCCCCCCCC  MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN  \NN\NN  UUUUUUUUUU      VV VV     22222222
-echo  \CCCCCC/   MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN   \NNNN  \UUUUUUUU/       VVV      22222222
+echo  /CCCCCC\   MMM\  /MMM  DDDDDDD\          MMM\  /MMM  EEEEEEEE  NN      NN  UU      UU                /222222\
+echo  CCCCCCCCC  MMMM\/MMMM  DDDDDDDD\         MMMM\/MMMM  EEEEEEEE  NNN     NN  UU      UU                22222222
+echo  CC/        MM\MMMM/MM  DD   \DDD         MM\MMMM/MM  EE        NNNN    NN  UU      UU    VV     VV   2/   /22
+echo  CC         MM \MM/ MM  DD    \DD   ---   MM \MM/ MM  EEEEEEEE  NN NN   NN  UU      UU     VV   VV       /22/
+echo  CC\        MM  \/  MM  DD     DD         MM  \/  MM  EE        NN  NN  NN  UU\    /UU     VV   VV     /22/
+echo  CCCCCCCCC  MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN   NN NN  UUUUUUUUUU      VV VV     22222222
+echo  \CCCCCC/   MM      MM  DDDDDDDDD         MM      MM  EEEEEEEE  NN    NNNN  \UUUUUUUU/       VVV      22222222
 echo  *                                                            
-echo  * Version 2.1.6 du 14.11.2025
+echo  * Version 2.1.6 du 02.04.2026
 echo  *
 echo  ***********************************************************
 echo  *
@@ -664,7 +663,7 @@ echo 2 : ent lgbt pierre boudieu
 echo 3 : discord
 echo 4 : osu
 echo 5 : Insta
-echo 6 : site pas bien
+echo 6 : youtube
 echo 7 : MaJ
 echo 8 : Debut
 set /p choix=Sur quel site veut tu aller ? :
@@ -675,7 +674,7 @@ if %choix%==2 start https://pierre-bourdieu.mon-ent-occitanie.fr/
 if %choix%==3 start https://discord.gg/ywfyYcXPgS
 if %choix%==4 start https://osu.ppy.sh/
 if %choix%==5 start https://www.instagram.com/pierrebourdieu_2k26/
-if %choix%==6 start https://youcare.world/?l=fr
+if %choix%==6 start https://youtube.com
 if %choix%==7 start https://drive.google.com/drive/folders/1uzpNLSENk2OM9lzkghzlBlScXyPYmp-S?usp=sharing
 if %choix%==8 goto debut
 )
@@ -749,10 +748,10 @@ color F
 echo *******************************************
 echo *
 echo *  Credits de CMD-MENUv2
-echo Version 2.1.6 du 13.11.2025
+echo Version 2.1.6 du 02/04/2026
 echo *
-echo pour faire la MaJ vas sur le GitHib du logiciel : 
-echo https://github.com/DARIUSISTOC1/CMD-MENUv2/tree/main
+echo pour faire la MaJ vas sur https://drive.google.com/drive/folders/1uzpNLSENk2OM9lzkghzlBlScXyPYmp-S?usp=sharing
+echo pour les pre maj https://drive.google.com/drive/folders/1XB6L_QU2ML9zCOSDeLHuyaWTDHljgGB4?usp=sharing
 echo *
 echo *
 echo ------un grand merci a toi d'etre alle sur cette page------
@@ -765,15 +764,26 @@ echo @@    @@\  /@@@@@@\      @@@/          /@@@@@@\    @         @ /@@@\
 echo @@     @@  @@     @      @@@           @/    \@    @/@@@@\   @@/  \@
 echo @@     @@  @@@@@@@/      @@@\          @      @    @@    @   @/   /@
 echo @@@@@@@@@  @              \@@@@@@@     @\    /@    @         @   /@/
-echo @@@@@@@@@  \@@@@@          \@@@@@@     \@@@@@@/    @         
+echo @@@@@@@@@  \@@@@@          \@@@@@@     \@@@@@@/    @         @@@@@/
+echo ______________________________________________________________@/________
+echo                                                               @
+echo                                                               @
+echo *
+echo   Le logo DeCorp v1.21.4 (v2025/09)
+echo *
+echo ------------------- ET PAR----------------------
+echo *
+echo  @@@@@      @@@@@@   @@@@@@@   @@  @@    @@    @@@@@@@
+echo  @@@@@@@   @@@@@@@@  @@@@@@@@  @@  @@    @@   @@@@@@@@
+echo  @@   @@@  @@    @@  @@    @@      @@    @@   @@
+echo  @@    @@  @@@@@@@@  @@@@@@@   @@  @@    @@    @@@@@@
+echo  @@    @@  @@@@@@@@  @@@@@@    @@  @@    @@         @@
+echo  @@@@@@@@  @@    @@  @@   @@   @@  @@@@@@@@   @@@@@@@@
+echo  @@@@@@@@  @@    @@  @@   @@   @@   @@@@@@    @@@@@@@    
+echo *
 echo *
 echo et par
-echo DARIUS
-echo et
 echo ETHANOL
-echo *
-echo qui n'as rien fait
-echo *
 echo *
 echo --------------CREDITS--------------v1.1.43
 echo *
@@ -791,8 +801,6 @@ echo -GINESTE Ethan -Idees-
 echo -GERVOIS Clara -1Lien-
 echo -EVENOT Robin -Idees-
 echo *
-echo si toi vouloir aprentissage type ce de code, toi envoyer mail a decorpfr@gmail.com
-echo *
 echo --- DERNIERS AJOUTS ---
 echo -GENMDP (Generateur de mot de passe)
 echo -CALC (Calculatrice)
@@ -809,6 +817,7 @@ echo --- PROCHAINES MAJ ---
 echo -Interface graphique
 echo -Plus de mini-jeux
 echo -Plus d'options
+echo -plus d'options comme christitus
 echo *
 echo merci de partager ce programme ce serais tres gentil
 echo *
